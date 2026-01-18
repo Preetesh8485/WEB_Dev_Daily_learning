@@ -33,3 +33,23 @@ let objVar={
 for(let a in objVar){
     console.log(a,":",objVar[a]);
 }
+//strings
+/* let str="string value"
+  str.length
+str[i] indexing
+
+*/
+
+//template literals 
+let sentence =`this is a template literals`
+console.log(sentence);
+//example condition
+let output =`the student name is ${objVar.name}`;//string interpolation
+console.log(output);
+// /n is newline /t is tabspace
+let newstr=stringVar.toUpperCase();
+console.log(newstr);
+newstr=stringVar.toLowerCase();
+console.log(newstr);
+console.log(stringVar);//strings are immutable
+//str.trim() removed empty spaces from sides

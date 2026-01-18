@@ -6,10 +6,15 @@ for(let i=0;i<=100;i++){
 }
 
 //number guesser
-let ans=69;
+/*let ans=69;
 let userinp=prompt("Try guessing the number");
 while(userinp!=ans){
     console.log("wrong answer");
     userinp=prompt("wrong,Try guessing the number");
 }
-console.log("correct answer");
+console.log("correct answer");*/
+
+let userinput=prompt("input your name ");
+let clearname=userinput.replaceAll(' ','');
+let username='@'+clearname+clearname.length;
+console.log(username);
