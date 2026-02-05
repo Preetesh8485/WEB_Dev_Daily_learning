@@ -1,0 +1,8 @@
+.parametric{
+    font-family: sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 50px 20px;
+    justify-content: space-between;
+}
