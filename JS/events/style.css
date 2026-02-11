@@ -1,0 +1,17 @@
+/* div{
+    border: 2px solid black;
+    padding: 20px 30px;
+    color: aqua;
+    background-color: black;
+    width: 100px;
+    
+    
+} */
+.dark{
+    background: #0c0c0c;
+    color: #fff;
+}
+.light{
+    background-color: #fff;
+    color: black;
+}
